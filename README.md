@@ -41,3 +41,12 @@ This script creates and initiates the database. The old database is renamed `db.
 pwd # /home/wykys/projects/laser-game
 ./utils/database.sh
 ```
+### SERVER
+
+This script runs the django server.
+
+#### Use:
+```bash
+pwd # /home/wykys/projects/laser-game
+./utils/server.sh
+```
