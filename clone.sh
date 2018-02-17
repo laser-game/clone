@@ -1,15 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 # areatet directory tree and
 # clone all repository in laser game project
 # wykys 2018
 
-PWD=`pwd`
-
-if [[ $PWD == */laser-game/utils ]]
+if [[ $(pwd) == */laser-game/utils ]]
 then
     echo "utils folder"
     cd ..
-elif [[ $PWD == */laser-game ]]; then
+elif [[ $(pwd) == */laser-game ]]; then
     echo "root of the project folder"
 else
     echo "Error: You must go to the root folder of the project or utils!"
