@@ -18,7 +18,7 @@ Clone is a bash script for creating a folder tree and cloning repositories to th
 
 #### Use:
 ```bash
-cd utils
+pwd # /home/wykys/projects/laser-game/utils
 ./clone.sh
 ```
 

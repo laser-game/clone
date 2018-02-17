@@ -5,7 +5,7 @@
 if [[ $(pwd) == */laser-game/sw/manager ]] || \
    [[ $(pwd) == */laser-game/sw/driver ]]  || \
    [[ $(pwd) == */laser-game/sw/bridge-api ]]; then
-    echo "folder id ok"
+    cd .
 else
     echo "Error: You must go to the root folder of the sw module!"
     exit -1

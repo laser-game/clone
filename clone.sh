@@ -4,10 +4,9 @@
 # wykys 2018
 
 if [[ $(pwd) == */laser-game/utils ]]; then
-    echo "utils folder"
     cd ..
 elif [[ $(pwd) == */laser-game ]]; then
-    echo "root of the project folder"
+    cd .
 else
     echo "Error: You must go to the root folder of the project or utils!"
     exit -1
