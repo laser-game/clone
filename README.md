@@ -34,7 +34,7 @@ pwd # /home/wykys/projects/laser-game/sw/manager
 
 ### DATABASE
 
-This script creates and initiates the database. The old database is renamed `db.sqlite3 old`. After initialization, the process for creating django superuser is started.
+This script creates and initiates the database. The old database is renamed `db.sqlite3_old`. After initialization, the process for creating django superuser is started.
 
 #### Use:
 ```bash
