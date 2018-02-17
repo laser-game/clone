@@ -1,5 +1,5 @@
 #!/bin/bash
-# areatet directory tree and
+# create directory tree and
 # clone all repository in laser game project
 # wykys 2018
 
