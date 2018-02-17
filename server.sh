@@ -18,4 +18,5 @@ fi
 echo "activate venv"
 . .venv/bin/activate
 
-python lgm/manage.py runserver
+echo "run server"
+./lgm/manage.py runserver 0.0.0.0:8000
