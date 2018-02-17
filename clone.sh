@@ -3,7 +3,19 @@
 # clone all repository in laser game project
 # wykys 2018
 
-cd ..
+PWD=`pwd`
+
+if [[ $PWD == */laser-game/utils ]]
+then
+    echo "utils folder"
+    cd ..
+elif [[ $PWD == */laser-game ]]; then
+    echo "root of the project folder"
+else
+    echo "Error: You must go to the root folder of the project or utils!"
+    exit -1
+fi
+
 mkdir sw hw
 
 cd sw
