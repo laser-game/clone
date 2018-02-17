@@ -3,8 +3,7 @@
 # clone all repository in laser game project
 # wykys 2018
 
-if [[ $(pwd) == */laser-game/utils ]]
-then
+if [[ $(pwd) == */laser-game/utils ]]; then
     echo "utils folder"
     cd ..
 elif [[ $(pwd) == */laser-game ]]; then
