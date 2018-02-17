@@ -3,10 +3,6 @@
 # clone all repository in laser game project
 # wykys 2018
 
-cd ..
-rm -rf laser-game
-mkdir laser-game
-cd laser-game
 mkdir sw hw
 
 cd sw

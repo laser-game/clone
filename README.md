@@ -1,15 +1,22 @@
-# Clone
-
+# Utils
 
 ## Description
 
-Clone is a bash script for creating a folder tree and cloning repositories to their correct location.
+Scripts for automating routines.
 
-## Use
+
+## Instalation
 
 ```bash
-git clone git@bitbucket.org:laser-game/clone.git
-cd clone
+mkdir laser-game
+cd laser-game
+git clone git@bitbucket.org:laser-game/utils.git
+cd utils
 ./clone.sh
-rm -rf clone
 ```
+
+## List of scripts
+
+# Clone
+
+Clone is a bash script for creating a folder tree and cloning repositories to their correct location.
