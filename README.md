@@ -50,3 +50,13 @@ This script runs the django server.
 pwd # /home/wykys/projects/laser-game
 ./utils/server.sh
 ```
+
+### DRIVER
+
+This script runs the driver.
+
+#### Use:
+```bash
+pwd # /home/wykys/projects/laser-game
+./utils/driver.sh
+```
