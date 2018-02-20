@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # actavated venv ans run django server
 # wykys 2018
 

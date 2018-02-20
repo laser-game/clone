@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # created and init databese
 # wykys 2018
 

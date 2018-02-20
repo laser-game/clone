@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # create directory tree and
 # clone all repository in laser game project
 # wykys 2018

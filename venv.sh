@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # create and install python enviroment
 # wykys 2018
 
