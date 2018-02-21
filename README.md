@@ -21,6 +21,7 @@ It installs the required `.deb` packages.
 #### Use:
 ```bash
 ./apt.sh
+```
 
 ### CLONE
 
