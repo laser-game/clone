@@ -14,6 +14,14 @@ git clone git@github.com:laser-game/utils.git
 
 ## List of scripts:
 
+### APT
+
+It installs the required `.deb` packages.
+
+#### Use:
+```bash
+./apt.sh
+
 ### CLONE
 
 Clone is a bash script for creating a folder tree and cloning repositories to their correct location.
