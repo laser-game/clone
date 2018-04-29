@@ -15,6 +15,16 @@ else
     exit -1
 fi
 
+if [ ! -d ".venv" ]; then
+  echo ".venv not exist"
+  ../../utils/venv.sh
+fi
+
+if [ ! -f lgm/db.sqlite3 ]; then
+    echo "database not exist"
+    ../../utils/database.sh
+fi
+
 echo "activate venv"
 . .venv/bin/activate
 
