@@ -11,8 +11,11 @@ else
     exit -1
 fi
 
-echo "remove old venv"
-rm .venv -rf
+if [ -d ".venv" ]; then
+    echo "remove old venv"
+    rm .venv -rf
+fi
+
 
 echo "create new venv"
 python3 -m venv .venv
