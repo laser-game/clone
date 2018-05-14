@@ -19,6 +19,10 @@ git clone git@github.com:laser-game/manager.git
 git clone git@github.com:laser-game/driver.git
 git clone git@github.com:laser-game/bridge-api.git
 
+cd ../fw
+git clone git@github.com:laser-game/router-fw.git
+git clone git@github.com:laser-game/main-fw.git
+
 cd ../hw
 git clone git@github.com:laser-game/router-hw.git
 git clone git@github.com:laser-game/main-hw.git
